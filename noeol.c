@@ -2,10 +2,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+char buf[512];
+bool haveeol = false;
+size_t n;
+
 int main() {
-    char buf[1024];
-    bool haveeol = false;
-    size_t n;
     while((n = read(0, buf, sizeof(buf)))) {
         if (haveeol) { putchar('\n'); }
         if (buf[n-1] == '\n') {

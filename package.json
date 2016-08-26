@@ -1,0 +1,32 @@
+{
+    "author": {
+        "email": "sidney@s4y.us",
+        "name": "Sidney San Martín",
+        "url": "http://s4y.us/"
+    },
+    "bin": "noeol",
+    "bugs": {
+        "url": "https://github.com/Sidnicious/noeol/issues"
+    },
+    "contributors": [{
+        "email": "gibatronic@gmail.com",
+        "name": "Gibran Malheiros",
+        "url": "http://gibatronic.github.io/"
+    }],
+    "description": "A tiny utility that pipes stdin to stdout, but leaves out the trailing newline if there is one.",
+    "homepage": "https://github.com/Sidnicious/noeol",
+    "keywords": [
+        "pipe",
+        "stdin",
+        "trim"
+    ],
+    "name": "noeol",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sidnicious/noeol.git"
+    },
+    "scripts": {
+        "install": "make"
+    },
+    "version": "1.0.0"
+}

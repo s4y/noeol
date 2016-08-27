@@ -2,7 +2,7 @@
     "author": {
         "email": "sidney@s4y.us",
         "name": "Sidney San Martín",
-        "url": "http://s4y.us/"
+        "url": "https://s4y.us/"
     },
     "bin": "noeol",
     "bugs": {
@@ -11,7 +11,7 @@
     "contributors": [{
         "email": "gibatronic@gmail.com",
         "name": "Gibran Malheiros",
-        "url": "http://gibatronic.github.io/"
+        "url": "https://gibatronic.github.io/"
     }],
     "description": "A tiny utility that pipes stdin to stdout, but leaves out the trailing newline if there is one.",
     "homepage": "https://github.com/Sidnicious/noeol",
